@@ -95,10 +95,10 @@
 		E2155A2D25C9889700256F61 /* Sokoban */ = {
 			isa = PBXGroup;
 			children = (
-				E2155A2E25C9889700256F61 /* SokobanApp.swift */,
-				E2155A3025C9889700256F61 /* ContentView.swift */,
-				E2155A3225C9889800256F61 /* Assets.xcassets */,
-				E2155A3725C9889800256F61 /* Info.plist */,
+				E28E016B25CA5D6B004E3AD2 /* Models */,
+				E28E016A25CA5D67004E3AD2 /* ViewModels */,
+				E28E016925CA5D5D004E3AD2 /* Views */,
+				E28E016825CA5D5B004E3AD2 /* App */,
 				E2155A3425C9889800256F61 /* Preview Content */,
 			);
 			path = Sokoban;
@@ -128,6 +128,38 @@
 				E2155A4D25C9889800256F61 /* Info.plist */,
 			);
 			path = SokobanUITests;
+			sourceTree = "<group>";
+		};
+		E28E016825CA5D5B004E3AD2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E2155A2E25C9889700256F61 /* SokobanApp.swift */,
+				E2155A3225C9889800256F61 /* Assets.xcassets */,
+				E2155A3725C9889800256F61 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E28E016925CA5D5D004E3AD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E2155A3025C9889700256F61 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E28E016A25CA5D67004E3AD2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E28E016B25CA5D6B004E3AD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,7 +453,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sokoban/Preview Content\"";
 				DEVELOPMENT_TEAM = ZYP768W5M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Sokoban/Info.plist;
+				INFOPLIST_FILE = Sokoban/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -443,7 +475,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sokoban/Preview Content\"";
 				DEVELOPMENT_TEAM = ZYP768W5M6;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Sokoban/Info.plist;
+				INFOPLIST_FILE = Sokoban/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
