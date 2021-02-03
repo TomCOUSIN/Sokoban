@@ -9,12 +9,12 @@ import Foundation
 
 class Game {
     
-    // MARK: - PROPERTIES
+    // MARK: - Properties
     
     /// The stored `map`
     private var map: [String]
     
-    // MARK: - INIT
+    // MARK: - Init
     
     /**
      Initialize a new instance of `Game` class
@@ -23,7 +23,7 @@ class Game {
         map = []
     }
     
-    // MARK: - METHODS
+    // MARK: - Methods
     
     /**
      Get the `map`
