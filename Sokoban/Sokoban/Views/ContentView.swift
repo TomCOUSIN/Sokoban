@@ -19,8 +19,14 @@ struct ContentView: View {
     var body: some View {
         ZStack {
             Color("background")
+                .ignoresSafeArea(.all)
             VStack {
-                Spacer()
+                HStack {
+                    CircleButton(name: "arrow.counterclockwise", action: {}, width: 50, height: 50)
+                    Spacer()
+                }
+                .padding(.leading, 30)
+                .padding(.top)
                 Spacer()
                 MapView()
                 Spacer()
@@ -28,7 +34,6 @@ struct ContentView: View {
                 Spacer()
             }
         }
-        .ignoresSafeArea(.all)
     }
 }
 

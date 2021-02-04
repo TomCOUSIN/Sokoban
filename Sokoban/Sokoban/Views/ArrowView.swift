@@ -13,12 +13,12 @@ struct ArrowView: View {
     
     var body: some View {
         VStack(spacing: -10) {
-            CircleButton(name: "arrow.up", action: {})
+            CircleButton(name: "arrow.up", action: {}, width: 75, height: 75)
             HStack(spacing: 50) {
-                CircleButton(name: "arrow.left", action: {})
-                CircleButton(name: "arrow.right", action: {})
+                CircleButton(name: "arrow.left", action: {}, width: 75, height: 75)
+                CircleButton(name: "arrow.right", action: {}, width: 75, height: 75)
             }
-            CircleButton(name: "arrow.down", action: {})
+            CircleButton(name: "arrow.down", action: {}, width: 75, height: 75)
         }
     }
 }
