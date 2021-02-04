@@ -21,12 +21,9 @@ struct ContentView: View {
             Color("background")
                 .ignoresSafeArea(.all)
             VStack {
-                HStack {
-                    CircleButton(name: "arrow.counterclockwise", action: {}, width: 50, height: 50)
-                    Spacer()
-                }
-                .padding(.leading, 30)
-                .padding(.top)
+                OptionsView()
+                    .padding(.leading, 30)
+                    .padding(.top)
                 Spacer()
                 MapView()
                 Spacer()
