@@ -12,6 +12,8 @@ struct CircleButton: View {
     // MARK: - Properties
     public let name: String
     public let action: () -> Void
+    public let width: CGFloat
+    public let height: CGFloat
     
     
     // MARK: - Body
@@ -38,16 +40,16 @@ struct CircleButton: View {
                     )
                     .padding()
             }
-            .frame(width: 75, height: 75, alignment: .center)
+            .frame(width: width, height: height, alignment: .center)
         })
     }
 }
 
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
-        CircleButton(name: "arrow.up", action: {})
-        CircleButton(name: "arrow.left", action: {})
-        CircleButton(name: "arrow.up", action: {})
+        CircleButton(name: "arrow.up", action: {}, width: 75, height: 75)
+        CircleButton(name: "arrow.left", action: {}, width: 75, height: 75)
+        CircleButton(name: "arrow.up", action: {}, width: 75, height: 75)
             .preferredColorScheme(.dark)
     }
 }
