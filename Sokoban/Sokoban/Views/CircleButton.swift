@@ -29,16 +29,16 @@ struct CircleButton: View {
                                 Color("circleStroke")
                             )
                     )
-                    .frame(width: 75, height: 75, alignment: .center)
-                    .shadow(color: Color("circleShadow"), radius: 50, x: 4, y: 4)
+                    .shadow(color: Color("circleShadow"), radius: 10, x: 0, y: 0)
                 Image(systemName: name)
                     .resizable()
-                    .frame(width: 32, height: 41, alignment: .center)
+                    .scaledToFit()
                     .foregroundColor(
                         Color("circleContent")
                     )
+                    .padding()
             }
-                
+            .frame(width: 75, height: 75, alignment: .center)
         })
     }
 }
@@ -46,6 +46,7 @@ struct CircleButton: View {
 struct CircleButton_Previews: PreviewProvider {
     static var previews: some View {
         CircleButton(name: "arrow.up", action: {})
+        CircleButton(name: "arrow.left", action: {})
         CircleButton(name: "arrow.up", action: {})
             .preferredColorScheme(.dark)
     }
