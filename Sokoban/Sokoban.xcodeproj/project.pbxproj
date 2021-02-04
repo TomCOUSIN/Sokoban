@@ -16,6 +16,7 @@
 		E228A4AD25CA7F0C00B62237 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228A4AC25CA7F0C00B62237 /* CircleButton.swift */; };
 		E26A2BAD25CC2F1700CEF021 /* ArrowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A2BAC25CC2F1700CEF021 /* ArrowView.swift */; };
 		E26A2BB225CC310200CEF021 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A2BB125CC310200CEF021 /* MapView.swift */; };
+		E26A2BB725CC376300CEF021 /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26A2BB625CC376300CEF021 /* OptionsView.swift */; };
 		E28E017325CA5FF4004E3AD2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E017225CA5FF4004E3AD2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +53,7 @@
 		E228A4AC25CA7F0C00B62237 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		E26A2BAC25CC2F1700CEF021 /* ArrowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowView.swift; sourceTree = "<group>"; };
 		E26A2BB125CC310200CEF021 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E26A2BB625CC376300CEF021 /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		E28E017225CA5FF4004E3AD2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				E228A4AC25CA7F0C00B62237 /* CircleButton.swift */,
 				E26A2BAC25CC2F1700CEF021 /* ArrowView.swift */,
 				E26A2BB125CC310200CEF021 /* MapView.swift */,
+				E26A2BB625CC376300CEF021 /* OptionsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				E2155A3125C9889700256F61 /* ContentView.swift in Sources */,
 				E26A2BB225CC310200CEF021 /* MapView.swift in Sources */,
 				E28E017325CA5FF4004E3AD2 /* Game.swift in Sources */,
+				E26A2BB725CC376300CEF021 /* OptionsView.swift in Sources */,
 				E26A2BAD25CC2F1700CEF021 /* ArrowView.swift in Sources */,
 				E2155A2F25C9889700256F61 /* SokobanApp.swift in Sources */,
 				E228A4AD25CA7F0C00B62237 /* CircleButton.swift in Sources */,
