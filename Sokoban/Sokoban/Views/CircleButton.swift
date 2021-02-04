@@ -29,7 +29,7 @@ struct CircleButton: View {
                                 Color("circleStroke")
                             )
                     )
-                    .shadow(color: Color("circleShadow"), radius: 10, x: 0, y: 0)
+                    .shadow(color: Color("circleShadow"), radius: 50, x: 0, y: 0)
                 Image(systemName: name)
                     .resizable()
                     .scaledToFit()
