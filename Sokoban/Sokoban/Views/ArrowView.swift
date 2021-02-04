@@ -26,5 +26,7 @@ struct ArrowView: View {
 struct ArrowView_Previews: PreviewProvider {
     static var previews: some View {
         ArrowView()
+        ArrowView()
+            .preferredColorScheme(.dark)
     }
 }
