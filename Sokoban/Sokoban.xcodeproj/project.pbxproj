@@ -13,6 +13,7 @@
 		E2155A3625C9889800256F61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2155A3525C9889800256F61 /* Preview Assets.xcassets */; };
 		E2155A4125C9889800256F61 /* SokobanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2155A4025C9889800256F61 /* SokobanTests.swift */; };
 		E2155A4C25C9889800256F61 /* SokobanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2155A4B25C9889800256F61 /* SokobanUITests.swift */; };
+		E228A4AD25CA7F0C00B62237 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E228A4AC25CA7F0C00B62237 /* CircleButton.swift */; };
 		E28E017325CA5FF4004E3AD2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28E017225CA5FF4004E3AD2 /* Game.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,7 @@
 		E2155A4725C9889800256F61 /* SokobanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SokobanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2155A4B25C9889800256F61 /* SokobanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SokobanUITests.swift; sourceTree = "<group>"; };
 		E2155A4D25C9889800256F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E228A4AC25CA7F0C00B62237 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		E28E017225CA5FF4004E3AD2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				E2155A3025C9889700256F61 /* ContentView.swift */,
+				E228A4AC25CA7F0C00B62237 /* CircleButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				E2155A3125C9889700256F61 /* ContentView.swift in Sources */,
 				E28E017325CA5FF4004E3AD2 /* Game.swift in Sources */,
 				E2155A2F25C9889700256F61 /* SokobanApp.swift in Sources */,
+				E228A4AD25CA7F0C00B62237 /* CircleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
