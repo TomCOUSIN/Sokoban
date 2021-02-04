@@ -17,13 +17,25 @@ struct ContentView: View {
     // MARK: - Body
     
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack {
+            Color("background")
+            VStack {
+                Spacer()
+                Spacer()
+                MapView()
+                Spacer()
+                ArrowView()
+                Spacer()
+            }
+        }
+        .ignoresSafeArea(.all)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+        ContentView()
+            .preferredColorScheme(.dark)
     }
 }
