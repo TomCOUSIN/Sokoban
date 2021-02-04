@@ -14,7 +14,7 @@ struct ArrowView: View {
     var body: some View {
         VStack(spacing: -10) {
             CircleButton(name: "arrow.up", action: {})
-            HStack(spacing: 40) {
+            HStack(spacing: 50) {
                 CircleButton(name: "arrow.left", action: {})
                 CircleButton(name: "arrow.right", action: {})
             }
